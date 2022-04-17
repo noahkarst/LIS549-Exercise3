@@ -1,0 +1,41 @@
+/* css */
+
+h1 {
+    font-weight: 300;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+}
+
+table {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    white-space: nowrap;
+    border-collapse: collapse;
+}
+
+thead {
+    height: 2rem;
+    color: #1db954;
+    background-color: #d3d3d3;
+}
+
+th, td {
+    padding: .5em;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+img {
+    max-height: 100px;
+    max-width: 100px;
+}
+
+tbody tr:hover {
+    background-color: pink;
+}
+
+.everyother {
+    background-color: #eee;
+}
+
